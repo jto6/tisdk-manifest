@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<manifest>
+		<remote fetch="git://git.ti.com/processor-sdk/" name="origin" />
+		<remote fetch="git@github.com:TexasInstruments/" name="github" />
+		<remote fetch="git@github.com:jto6/" name="jto6" />
+</manifest>

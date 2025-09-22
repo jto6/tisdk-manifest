@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+		<include name="origin.xml"/>
+		<project remote="jto6"   path="sdk_builder"                           name="sdk_builder"                                       revision="claude"/>
+		<project remote="origin" path="sdk_builder/concerto"                  name="processor-sdk-vision/concerto"                     revision="vision_sdk_prod"/>
+		<project remote="origin" path="app_utils"                             name="processor-sdk-vision/app_utils"                    revision="vision_sdk_prod"/>
+		<project remote="jto6"   path="vision_apps"                           name="vision_apps"                                       revision="main"/>
+		<project remote="origin" path="vxlib"                                 name="processor-sdk-vision/vxlib"                        revision="vision_sdk_prod"/>
+		<project remote="origin" path="tiovx"                                 name="processor-sdk-vision/tiovx"                        revision="vision_sdk_prod"/>
+		<project remote="origin" path="tiovx/tiovx_dev"                       name="processor-sdk-vision/tiovx_dev"                    revision="master"/>
+		<project remote="origin" path="imaging"                               name="processor-sdk-vision/imaging"                      revision="vision_sdk_prod"/>
+		<project remote="origin" path="video_io"                              name="processor-sdk-vision/video_io"                     revision="vision_sdk_prod"/>
+		<project remote="origin" path="tiadalg"                               name="processor-sdk-vision/j7_ad_algos"                  revision="vision_sdk_prod"/>
+		<project remote="origin" path="ti-perception-toolkit"                 name="processor-sdk-vision/ti-perception-toolkit"        revision="vision_sdk_prod"/>
+		<project remote="origin" path="vhwa_c_models"                         name="processor-sdk-vision/j7_c_models"                  revision="vision_sdk_prod"/>
+		<project remote="origin" path="c7x-mma-tidl"                          name="processor-sdk-vision/c7x-mma-tidl"                 revision="vision_sdk_prod" sync-s="true"/>
+		<!-- BELOW HERE IS FROM CORE SDK -->
+		<project remote="origin" path="pdk/packages/ti/drv/vhwa"              name="processor-sdk-vision/vhwa"                         revision="vision_sdk_prod"/>
+		<project remote="origin" path="mcu_plus_sdk/source/drivers/vhwa"      name="processor-sdk-vision/vhwa"                         revision="vision_sdk_prod"/>
+		<project remote="origin" path="ethfw"                                 name="processor-sdk-vision/ethfw"                        revision="vision_sdk_prod"/>
+		<project remote="origin" path="ivision"                               name="processor-sdk-vision/ivision"                      revision="vision_sdk_prod"/>
+		<!-- BELOW HERE IS FROM OTHER XMLS -->
+		<include name="pdk_prod.xml"/>                  <!-- stable pdk -->
+		<include name="mcu_plus_sdk_prod.xml"/>         <!-- stable mcu_plus_sdk -->
+		<include name="edgeai_prod.xml"/>               <!-- stable edgeai -->
+</manifest>

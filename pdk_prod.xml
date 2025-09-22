@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <include name="origin.xml"/>
+   <remote fetch="https://github.com/FreeRTOS/"    name="freertos"/>
+   <remote fetch="https://github.com/zeux/"        name="zeux"/>
+   <project remote="jto6"            path="pdk"                                                          name="pdk"               revision="claude"/>
+   <project remote="origin"   path="pdk/docs"                                                     name="processor-sdk/pdk_docs"          revision="master"/>
+   <project remote="origin"   path="pdk/packages/ti/csl"                                          name="keystone-rtos/common-csl-ip"     revision="release"/>
+   <project remote="origin"   path="pdk/packages/ti/drv/pm"                                       name="processor-sdk/pm"                revision="vision_sdk_prod"/>
+   <project remote="origin"   path="pdk/packages/ti/drv/pmic"                                     name="processor-sdk/pmic_lld"          revision="vision_sdk_prod"/>
+   <project remote="origin"   path="pdk/packages/ti/drv/enet"                                     name="processor-sdk/enet-lld"          revision="vision_sdk_prod"/>
+   <project remote="origin"   path="pdk/packages/ti/drv/csirx"                                    name="processor-sdk-vision/csirx-lld"  revision="vision_sdk_prod"/>
+   <project remote="origin"   path="pdk/packages/ti/drv/csitx"                                    name="processor-sdk-vision/csitx-lld"  revision="vision_sdk_prod"/>
+   <project remote="origin"   path="pdk/packages/ti/drv/sa"                                       name="processor-sdk/sa-lld"            revision="vision_sdk_prod"/>
+   <project remote="origin"          path="pdk/packages/ti/drv/sciclient/src/rm_pm_hal"                  name="sysfw/rm_pm_hal"                 revision="refs/tags/v11.00.09"/>
+   <project remote="origin"   path="pdk/packages/ti/transport/lwip/lwip-stack"                    name="processor-sdk/lwip"              revision="ti-STABLE-2_2_0_RELEASE"/>
+   <project remote="origin"   path="pdk/packages/ti/transport/tsn/tsn-stack"                      name="processor-sdk/enet-tsn-stack"    revision="vision_sdk_prod"/>
+   <project remote="zeux"            path="pdk/packages/ti/transport/tsn/utils/pugixml"                  name="pugixml"                         revision="refs/tags/v1.14"/>
+   <project remote="origin"   path="mcusw"                                                        name="processor-sdk-vision/mcusw"      revision="vision_sdk_prod"/>
+   <project remote="origin"   path="mcusw_docs"                                                   name="processor-sdk-vision/mcusw_docs" revision="master"/>
+   <project remote="freertos"        path="pdk/packages/ti/kernel/freertos/FreeRTOS-LTS/FreeRTOS-Kernel" name="FreeRTOS-Kernel"                 revision="refs/tags/V10.5.1"/>
+   <project remote="freertos"        path="pdk/packages/ti/kernel/freertos/FreeRTOS-Labs/FreeRTOS-POSIX" name="Lab-Project-FreeRTOS-POSIX"      revision="main"/>
+</manifest>

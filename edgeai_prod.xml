@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <include name="origin.xml"/>
+   <project remote="origin"   path="edgeai/edgeai-apps-utils"                   name="processor-sdk-vision/edgeai-apps-utils"         revision="main"/>
+   <project remote="origin"   path="edgeai/edgeai-tiovx-kernels"                name="processor-sdk-vision/edgeai-tiovx-kernels"      revision="main"/>
+   <project remote="github"   path="edgeai/edgeai-tiovx-apps"                   name="edgeai-tiovx-apps"                              revision="main"/>
+</manifest>
